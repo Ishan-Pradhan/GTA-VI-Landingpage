@@ -21,7 +21,7 @@ const Hero = () => {
       scrollTrigger: {
         trigger: ".hero-section",
         start: "top top", //start from top
-        scrub: 2.5,
+        scrub: 2.5, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
         end: "+=200%", //animation should go on till 200% after the div
         pin: true, //frezze trigger element in place while animation is happening
       },
