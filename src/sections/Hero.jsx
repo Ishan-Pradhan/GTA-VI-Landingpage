@@ -56,12 +56,12 @@ const Hero = () => {
   });
 
   return (
-    <section className="hero-section">
-      <div className="size-full mask-wrapper">
+    <section className="hero-section ">
+      <div className=" mask-wrapper h-full md:h-auto w-full">
         <img
           src="/images/hero-bg.webp"
           alt="background"
-          className="scale-out "
+          className="scale-out"
         />
         <img
           src="/images/hero-text.webp"
